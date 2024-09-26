@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-section, .output-section {
+    margin-bottom: 20px;
+}
+
+input, button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: 0.30s;
+}
+
+#dleetall{
+    margin: 20px 0;
+}
+
+button:active {
+    transform: scale(0.90);
+}
+
+.search-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-btn button {
+    width: 45%;
+}
+
+.Price input {
+    width: 75%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+#delete-all button {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#delete-all button:hover {
+    background-color: #c82333;
+}
+
+#total {
+   background: red;
+   border-radius: 5px;
+   padding: 0 5px;
+}
+#total::before{
+    content: 'Total : ';
+}
